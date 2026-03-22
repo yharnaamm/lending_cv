@@ -1,0 +1,46 @@
+import { Project } from '../types';
+
+export const projects: Project[] = [
+  {
+    id: '1',
+    title: 'E-Commerce Platform',
+    description: 'A modern, full-featured online shopping platform with cart, checkout, and admin dashboard.',
+    longDescription: 'Built a comprehensive e-commerce solution featuring real-time inventory management, secure payment integration with Stripe, advanced product filtering, and a responsive admin dashboard for managing orders and products. Implemented optimistic UI updates and state management for seamless user experience.',
+    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Tailwind CSS'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com',
+    featured: true,
+  },
+  {
+    id: '2',
+    title: 'Task Management App',
+    description: 'Collaborative project management tool with real-time updates and team features.',
+    longDescription: 'Developed a feature-rich task management application with drag-and-drop functionality, real-time collaboration using WebSockets, team workspaces, file attachments, and advanced filtering. Includes calendar views, notifications, and customizable workflows for teams of all sizes.',
+    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['React', 'Redux', 'Firebase', 'Material-UI'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com',
+    featured: true,
+  },
+  {
+    id: '3',
+    title: 'Weather Dashboard',
+    description: 'Real-time weather tracking application with location-based forecasts and interactive maps.',
+    longDescription: 'Created an intuitive weather application that provides accurate forecasts, severe weather alerts, and interactive radar maps. Features include location search with autocomplete, favorite locations, hourly and 7-day forecasts, UV index, and air quality metrics. Optimized for performance with data caching and lazy loading.',
+    image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['React', 'TypeScript', 'OpenWeather API', 'Chart.js'],
+    liveUrl: 'https://example.com',
+    featured: false,
+  },
+  {
+    id: '4',
+    title: 'Portfolio CMS',
+    description: 'Headless CMS for managing portfolio content with a modern admin interface.',
+    longDescription: 'Built a flexible content management system tailored for portfolio websites. Features include a rich text editor, media management, SEO optimization tools, draft/publish workflow, and API endpoints for headless deployment. Includes role-based access control and version history for content recovery.',
+    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['React', 'Node.js', 'PostgreSQL', 'GraphQL'],
+    githubUrl: 'https://github.com',
+    featured: false,
+  },
+];
